@@ -61,7 +61,7 @@ func addContentType(path string) string {
 	} else if strings.HasSuffix(path, ".html") {
 		contentType = "text/html; charset=utf-8"
 	} else if strings.HasSuffix(path, ".jpg") {
-		contentType = "image/jpg; charset=utf-8"
+		contentType = "image/jpeg; charset=utf-8"
 	} else {
 		contentType = "text/plain; charset=utf-8"
 	}
